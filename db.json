@@ -1,0 +1,53 @@
+{
+  "km-persons": [{
+    "id": 1,
+    "name": "Ian"
+  }, {
+    "id": 2,
+    "name": "Ryan"
+  }],
+  "km-todos": [{
+    "id": 1,
+    "person_id": 1,
+    "text": "Stay Chill"
+  }
+  ],
+  "is-persons": [],
+  "is-todos": [],
+  "rs-persons": [],
+  "rs-todos": [],
+  "bb-persons": [],
+  "bb-todos": [],
+  "cl-persons": [],
+  "cl-todos": [],
+  "jb-persons": [],
+  "jb-todos": [],
+  "js-persons": [],
+  "js-todos": [],
+  "jc-persons": [],
+  "jc-todos": [],
+  "mb-persons": [],
+  "mb-todos": [],
+  "ms-persons": [],
+  "ms-todos": [],
+  "mp-persons": [],
+  "mp-todos": [],
+  "nh-persons": [],
+  "nh-todos": [],
+  "pr-persons": [],
+  "pr-todos": [],
+  "pd-persons": [],
+  "pd-todos": [],
+  "wk-persons": [],
+  "wk-todos": [],
+  "hd-persons": [],
+  "hd-todos": [],
+  "ll-persons": [],
+  "ll-todos": [],
+  "al-persons": [],
+  "al-todos": [],
+  "rm-persons": [],
+  "rm-todos": [],
+  "wo-persons": [],
+  "wo-todos": []
+}
