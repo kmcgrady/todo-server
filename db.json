@@ -9,7 +9,8 @@
   "km-todos": [{
     "id": 1,
     "km-personId": 1,
-    "text": "Stay Chill"
+    "text": "Bake More!",
+    "completed": false
   }
   ],
   "is-persons": [],
