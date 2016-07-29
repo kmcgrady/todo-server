@@ -12,5 +12,8 @@
   "dependencies": {
     "json-server": "^0.8.17",
     "nodemon": "^1.10.0"
+  },
+  "engines": {
+    "node": "6.3.0"
   }
 }
