@@ -7,7 +7,20 @@ const port = process.env.PORT || 8000;
 
 server.use(middlewares);
 server.use(function (req, res, next) {
-  jwt.verify(req.cookies.accessToken, 'SECRET_KEY', (err, decoded) => {
+  if (req.method !== 'POST') {
+    return next();
+  }
+
+  const authorization = req.get('Authorization');
+  const check = /^Bearer (.+)$/g;
+  const checkResults = check.exec(authorization);
+  if (!checkResults) {
+    return res.sendStatus(401);
+  }
+
+  const [original, token] = checkResults
+  console.log(token);
+  jwt.verify(token, 'SECRET_KEY', (err, decoded) => {
     if (err) {
       return res.sendStatus(401);
     }
